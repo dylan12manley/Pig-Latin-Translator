@@ -12,7 +12,14 @@ function latinizer(word){
   (word.charAt(0).toLowerCase() === "u")) {
     pigWord += "way"
   }
-  
+  else if (!word.include("qu")){
+    var firstVowelIndex = vowelIndexer(word)
+    var pigWord = word.slice(firstVowelIndex) + word.slice(0, firstVowelIndex) + "ay"
+  }
+  else {
+    var firstVowelIndex = vowelIndexer(word)
+    var pigWord = word.slice(firstVowelIndex + 1) + word.slice(0, firstVowelIndex + 1) + "ay"
+  }
 }
 function toPigLatin(sentence){
   var sentenceArray = sentence.split(" ");
