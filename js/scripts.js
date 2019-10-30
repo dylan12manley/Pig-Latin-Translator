@@ -1,23 +1,9 @@
 //back end//
-var vowels = ["a" , "e" , "i" , "o" , "u" , "A" , "E" , "I" , "O" , "U"];
-
-var pigSentence = function(input) {
-  var sentence = input.split(" ");
-  // console.log(sentence)
-  newSentence = sentence.map(function(word){
-    return pigWord(word);
-  });
-  return newSentence.join(" ");
-
-};
-
-var pigWord = function(word){
-  if (word[0] === "y" || word[0] === "Y") {
-    return word.slice1
-
-  }
-  else {
-  return (pigWord("error"))}
+function toPigLatin(sentence){
+  var sentenceArray = sentence.split(" ");
+  var pigSentenceArray = sentenceArray.map(function(word){
+    return latinizer(word);
+  })
 }
 
 
@@ -27,9 +13,32 @@ var pigWord = function(word){
 $(document).ready(function() {
   $("form#translator").submit(function(event) {
     event.preventDefault();
-    var language = $("input#language").val();
-    var result = pigSentence(language);
+    $("input#language").show();
+    var userSentence = $("input#language").val();
+    var pigLatinSentence = toPigLatin(userSentence);
     console.log("input#language");
-    $("#result").show();
+    $("#result").text(pigLatinSentence);
   });
 });
+
+//back end//
+// var vowels = ["a" , "e" , "i" , "o" , "u" , "A" , "E" , "I" , "O" , "U"];
+
+// var pigSentence = function(input) {
+//   var sentence = input.split(" ");
+//   newSentence = sentence.map(function(word){
+//     return pigWord(word);
+//   });
+//   return newSentence.join(" ");
+// };
+//
+// var pigWord = function(word){
+//   if (word[0] === "y" || word[0] === "Y") {
+//     return word.slice(1) + "yay";
+//   }
+//   else if (word[]){
+//
+//   }
+//   else {
+//   return (pigWord("error"))}
+// }
