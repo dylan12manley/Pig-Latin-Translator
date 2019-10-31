@@ -5,8 +5,11 @@ body {
 }
 #result {
   display: none;
-  background-color: #D4BAB4;
   padding-top: 5px;
-  padding-left: 5px;
+  padding-left: 10px;
   padding-bottom: 1px;
+  background: rgb(131,58,180);
+  background: linear-gradient(0deg, rgba(239,193,116,0.5) 0%, rgba(131,58,180,1) 25%, rgba(130,193,142,1) 95%);
+  color: white;
+  font-weight: 600;
 }
