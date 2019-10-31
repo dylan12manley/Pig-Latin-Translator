@@ -12,6 +12,7 @@ body {
   background: linear-gradient(0deg, rgba(239,193,116,0.5) 0%, rgba(131,58,180,1) 25%, rgba(130,193,142,1) 95%);
   color: white;
   font-weight: 600;
+  margin-top: 8px;
 }
 button.btn{
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
