@@ -1,27 +1,41 @@
+h2 {
+  background: rgb(131,58,180);
+  background: linear-gradient(180deg, rgba(239,193,116,0.5) 0%, rgba(131,58,180,1) 25%, rgba(130,193,142,1) 95%);
+  max-width: 400px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+}
 body {
   padding-top: 15px;
-  background: rgb(159,139,135);
-  background: radial-gradient(circle, rgba(159,139,135,1) 0%, rgba(212,186,180,1) 54%, rgba(186,180,212,1) 81%);
+  background: rgb(131,58,180);
+  background: radial-gradient(circle, rgba(239,193,116,0.5) 0%, rgba(131,58,180,1) 25%, rgba(130,193,142,1) 95%);
 }
 label {
   background: linear-gradient(105deg, #daae51 0%, #d53369 100%);
   padding: 4px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  font-weight: 600;
+}
+input {
+  background: rgb(131,58,180);
+  background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(239,193,116,0.5) 20%, rgba(130,193,142,1) 97%);
 }
 #result {
   display: none;
   padding-top: 5px;
   padding-left: 10px;
   padding-bottom: 1px;
-  background: rgb(131,58,180);
-  background: linear-gradient(15deg, rgba(239,193,116,0.5) 0%, rgba(131,58,180,1) 25%, rgba(130,193,142,1) 95%);
+  background: rgb(239,193,116);
+  background: linear-gradient(0deg, rgba(239,193,116,0.5) 0%, rgba(131,58,180,1) 30%, rgba(130,193,142,1) 60%);
   color: white;
   font-weight: 600;
   margin-top: 8px;
-  max-width: 470px;
+  max-width: 476px;
 }
 button.btn{
   background: linear-gradient(75deg, #d53369 0%, #daae51 100%);
-  font-weight: 500;
+  font-weight: 700;
 }
 h2{
   margin-left: 30px;
