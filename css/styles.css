@@ -3,20 +3,24 @@ body {
   background: rgb(159,139,135);
   background: radial-gradient(circle, rgba(159,139,135,1) 0%, rgba(212,186,180,1) 54%, rgba(186,180,212,1) 81%);
 }
+label {
+  background: linear-gradient(105deg, #daae51 0%, #d53369 100%);
+  padding: 4px;
+}
 #result {
   display: none;
   padding-top: 5px;
   padding-left: 10px;
   padding-bottom: 1px;
   background: rgb(131,58,180);
-  background: linear-gradient(0deg, rgba(239,193,116,0.5) 0%, rgba(131,58,180,1) 25%, rgba(130,193,142,1) 95%);
+  background: linear-gradient(15deg, rgba(239,193,116,0.5) 0%, rgba(131,58,180,1) 25%, rgba(130,193,142,1) 95%);
   color: white;
   font-weight: 600;
   margin-top: 8px;
   max-width: 470px;
 }
 button.btn{
-  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  background: linear-gradient(75deg, #d53369 0%, #daae51 100%);
   font-weight: 500;
 }
 h2{
