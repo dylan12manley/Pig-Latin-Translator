@@ -13,3 +13,7 @@ body {
   color: white;
   font-weight: 600;
 }
+button.btn{
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  font-weight: 500;
+}
